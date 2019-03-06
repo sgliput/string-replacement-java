@@ -5,7 +5,7 @@ public class StringReplacer {
         System.out.println();
         System.out.println("Original String: " + strOrig);
         System.out.println(); 
-        String[] words=strOrig.split(strFind);//splits the string based on whitespace 
+        String[] words=strOrig.split(strFind);//splits the string based on instances of strFind 
         // //using java foreach loop to print elements of string array  
         // System.out.println("Prints out string array of split words");
         // for(String w:words){  
